@@ -3,7 +3,6 @@ import HeaderStyled from "../styles/components/headerStyled";
 const Header= () => (
 <HeaderStyled>
     <div className="container">
-        <h1>Logo</h1>
         <nav>
             <ul>
                 <li><a href="#beneficios">Benefícios</a></li>
@@ -12,7 +11,6 @@ const Header= () => (
                 <li><a href="#faq">FAQ</a></li>
             </ul>
         </nav>
-        <a href="#contato" className="btn">Whatsapp</a>
     </div>
 </HeaderStyled>
 );

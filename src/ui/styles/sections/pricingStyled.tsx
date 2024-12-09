@@ -13,6 +13,11 @@ const PricingStyled = styled.section`
     box-shadow: ${({ theme }) => theme.shadows.shadowLg};
     text-align: center;
 
+    img {
+      width: 40%;
+      box-shadow: ${({ theme }) => theme.shadows.shadowLg};
+    }
+
     .price {
       margin: 32px 0;
 

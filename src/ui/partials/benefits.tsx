@@ -1,3 +1,4 @@
+import Btn from "../styles/components/btn";
 import BenefitsStyled from "../styles/sections/benefitsStyled";
 
 const Benefits = () => {
@@ -33,6 +34,9 @@ const Benefits = () => {
               Encontre o equilíbrio perfeito entre vida pessoal e profissional.
             </p>
           </div>
+        </div>
+        <div className="cta">
+          <Btn href="#pricing">QUERO COMEÇAR MINHA TRANSFORMAÇÃO AGORA</Btn>
         </div>
       </div>
     </BenefitsStyled>

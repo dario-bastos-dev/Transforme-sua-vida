@@ -16,10 +16,16 @@ const BenefitsStyled = styled.section`
       box-shadow: ${({ theme }) => theme.shadows.shadowMd};
       transition: transform 0.3s ease;
 
+
       &:hover {
         transform: translateY(-5px);
       }
     }
+  }
+
+  .cta {
+    margin-top: 50px;
+    text-align: center;
   }
 `;
 

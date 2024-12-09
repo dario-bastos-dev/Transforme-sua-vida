@@ -21,6 +21,11 @@ const ContentStyled = styled.section`
       }
     }
   }
+
+  .cta {
+    margin-top: 50px;
+    text-align: center;
+  }
 `;
 
 export default ContentStyled;

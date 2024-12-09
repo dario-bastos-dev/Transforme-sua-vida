@@ -17,6 +17,11 @@ const PaintPointsStyled = styled.section`
       box-shadow: ${({ theme }) => theme.shadows.shadowMd};
     }
   }
+
+  .cta {
+    margin-top: 50px;
+    text-align: center;
+  }
 `;
 
 export default PaintPointsStyled;

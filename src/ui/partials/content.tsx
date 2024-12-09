@@ -1,3 +1,4 @@
+import Btn from "../styles/components/btn";
 import ContentStyled from "../styles/sections/contentStyled";
 
 const Content = () => {
@@ -27,6 +28,9 @@ const Content = () => {
             insights valiosos e ferramentas práticas que você pode começar a
             usar imediatamente para transformar sua vida.
           </p>
+        </div>
+        <div className="cta">
+          <Btn href="#pricing">QUERO TRANSFORMAR MINHA VIDA AGORA</Btn>
         </div>
       </div>
     </ContentStyled>

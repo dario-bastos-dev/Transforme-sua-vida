@@ -12,7 +12,7 @@ const HeaderStyled = styled.header`
 
   .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 
     nav ul {
@@ -37,20 +37,7 @@ const HeaderStyled = styled.header`
         }
       }
     }
-    .btn {
-      background-color: ${({ theme }) => theme.colors.secundary};
-      color: white;
-      padding: 8px 16px;
-      border-radius: 4px;
-      text-decoration: none;
-      font-size: 14px;
-      font-weight: 600;
-      transition: transform 0.3s ease;
-
-      &:hover {
-          transform: translateY(-2px);
-      }
-    }
+ 
   }
 `;
 
