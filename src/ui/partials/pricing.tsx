@@ -1,5 +1,5 @@
 import PricingStyled from "../styles/sections/pricingStyled";
-import capa from "../../assets/capa.jpg";
+import capa from "../../assets/Capa.jpg";
 
 const Pricing = () => {
   return (
