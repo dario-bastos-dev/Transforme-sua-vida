@@ -1,5 +1,5 @@
 import GuaranteeStyled from "../styles/sections/guaranteeStyled";
-import seloGarantia from "../../assets/selo-garantia.png";
+import seloGarantia from "../../assets/Selo-garantia.png";
 
 const Guarantee = () => {
   return (
